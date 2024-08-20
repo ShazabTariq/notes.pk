@@ -1,4 +1,3 @@
-
 [
     {
         "id": "1",
@@ -14,7 +13,7 @@
         "name": "9 class notes",
         "title": "advanced topics in science",
         "price": "5$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-photo/science-background_53876-16941.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "3",
@@ -22,7 +21,7 @@
         "name": "10 class notes",
         "title": "introduction to mathematics",
         "price": "0$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-vector/mathematics-education-vector-illustration_1284-73840.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "4",
@@ -30,15 +29,15 @@
         "name": "11 class notes",
         "title": "history of the world",
         "price": "10$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-photo/old-world-map_1172-738.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
-        {
+    {
         "id": "5",
         "category": "free",
         "name": "12 class notes",
         "title": "fundamentals of physics",
         "price": "0$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-photo/physics-equations-drawn-chalkboard_1150-16127.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "6",
@@ -46,7 +45,7 @@
         "name": "College notes",
         "title": "chemistry for beginners",
         "price": "15$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-photo/laboratory-glassware-arranged-white-surface_53876-142739.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "7",
@@ -54,7 +53,7 @@
         "name": "Graduate notes",
         "title": "advanced economics",
         "price": "0$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-vector/economics-background-flat-style_23-2147862133.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "8",
@@ -62,7 +61,7 @@
         "name": "Postgraduate notes",
         "title": "modern literature analysis",
         "price": "20$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-photo/book-pages-folded-heart-shape_23-2147879978.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "9",
@@ -70,7 +69,7 @@
         "name": "7 class notes",
         "title": "basic geography",
         "price": "0$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-photo/hand-holding-global-network-connection-all-countries-earth-from-space-background-worldwide-network-communication-technology-concept-global-international-business-growth-concept-elements-image-furnished-by-nasa_1150-11089.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "10",
@@ -78,7 +77,7 @@
         "name": "6 class notes",
         "title": "introduction to biology",
         "price": "3$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-photo/biology-concept-with-molecule-structure_23-2149080811.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "11",
@@ -86,7 +85,7 @@
         "name": "5 class notes",
         "title": "beginner's guide to algebra",
         "price": "0$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-photo/math-concept-with-digits_23-2149072660.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "12",
@@ -94,7 +93,7 @@
         "name": "4 class notes",
         "title": "exploring the solar system",
         "price": "2$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-photo/solar-system-with-sun-elements-this-image-furnished-by-nasa_34995-1012.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "13",
@@ -102,7 +101,7 @@
         "name": "3 class notes",
         "title": "learning the alphabet",
         "price": "0$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-vector/letter-abc-flashcard-with-abc-letter-isolated-white_1308-68967.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "14",
@@ -110,7 +109,7 @@
         "name": "2 class notes",
         "title": "counting numbers",
         "price": "1$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-photo/stack-cards-with-numbers-sides_53876-16589.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "15",
@@ -118,7 +117,7 @@
         "name": "1 class notes",
         "title": "shapes and colors",
         "price": "0$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-vector/colorful-geometric-shapes-collection_23-2148461522.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
     {
         "id": "16",
@@ -126,15 +125,198 @@
         "name": "preschool notes",
         "title": "early learning basics",
         "price": "1$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-photo/kids-playroom-with-playhouse-teepee-tent-indoors_1303-25461.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     },
-   
+    {
+        "id": "17",
+        "category": "free",
+        "name": "High School Math Notes",
+        "title": "Advanced Algebra Concepts",
+        "price": "0$",
+        "image": "https://img.freepik.com/free-vector/math-doodles-set_23-2148539453.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
     {
         "id": "18",
         "category": "paid",
-        "name": "advanced class notes",
-        "title": "quantum mechanics introduction",
+        "name": "Physics Notes",
+        "title": "Quantum Mechanics Introduction",
         "price": "25$",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+        "image": "https://img.freepik.com/free-photo/quantum-mechanics-text-written-wooden-cubes_23-2148997455.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "19",
+        "category": "free",
+        "name": "History Notes",
+        "title": "World War II Summary",
+        "price": "0$",
+        "image": "https://img.freepik.com/free-photo/world-war-ii-memorial-wall_23-2149270482.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "20",
+        "category": "paid",
+        "name": "Chemistry Notes",
+        "title": "Organic Chemistry Basics",
+        "price": "18$",
+        "image": "https://img.freepik.com/free-photo/chemistry-equipment-table-scientist-work-laboratory_23-2148824311.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "21",
+        "category": "free",
+        "name": "Geography Notes",
+        "title": "Physical Geography Overview",
+        "price": "0$",
+        "image": "https://img.freepik.com/free-vector/geography-doodle-illustration_1284-21101.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "22",
+        "category": "paid",
+        "name": "Biology Notes",
+        "title": "Cellular Biology Introduction",
+        "price": "12$",
+        "image": "https://img.freepik.com/free-vector/cellular-biology-scientific-illustration_1284-27258.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "23",
+        "category": "free",
+        "name": "English Literature Notes",
+        "title": "Shakespeare's Tragedies",
+        "price": "0$",
+        "image": "https://img.freepik.com/free-vector/shakespeare-theatre-concept_1284-66152.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "24",
+        "category": "paid",
+        "name": "Economics Notes",
+        "title": "Microeconomics Theories",
+        "price": "20$",
+        "image": "https://img.freepik.com/free-photo/stack-coins-with-microeconomics-word_23-2148997458.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "25",
+        "category": "free",
+        "name": "Philosophy Notes",
+        "title": "Introduction to Ethics",
+        "price": "0$",
+        "image": "https://img.freepik.com/free-photo/ethics-text-written-wooden-blocks-business-concept_23-2148982089.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "26",
+        "category": "paid",
+        "name": "Art History Notes",
+        "title": "Renaissance Art Overview",
+        "price": "15$",
+        "image": "https://img.freepik.com/free-photo/renaissance-painting-with-bible-motive-church_1284-26836.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "27",
+        "category": "free",
+        "name": "Psychology Notes",
+        "title": "Behavioral Psychology Basics",
+        "price": "0$",
+        "image": "https://img.freepik.com/free-photo/brain-anatomy-illustration-concept_23-2149194380.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "28",
+        "category": "paid",
+        "name": "Sociology Notes",
+        "title": "Social Structures",
+        "price": "10$",
+        "image": "https://img.freepik.com/free-vector/sociology-concept-illustration_114360-6368.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "29",
+        "category": "free",
+        "name": "Political Science Notes",
+        "title": "Government Systems",
+        "price": "0$",
+        "image": "https://img.freepik.com/free-vector/political-science-concept-illustration_114360-6373.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "30",
+        "category": "paid",
+        "name": "Environmental Science Notes",
+        "title": "Climate Change",
+        "price": "22$",
+        "image": "https://img.freepik.com/free-photo/climate-change-word-cloud_23-2148430041.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "31",
+        "category": "free",
+        "name": "Programming Basics",
+        "title": "Introduction to Java",
+        "price": "0$",
+        "image": "https://img.freepik.com/free-photo/java-coding-computer-programming-code-script-software-development-concept_34629-1330.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "32",
+        "category": "paid",
+        "name": "Advanced Mathematics",
+        "title": "Calculus II",
+        "price": "30$",
+        "image": "https://img.freepik.com/free-photo/calculus-handwritten-text-near-supplies_23-2148440081.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "33",
+        "category": "free",
+        "name": "Creative Writing",
+        "title": "Writing Short Stories",
+        "price": "0$",
+        "image": "https://img.freepik.com/free-photo/author-creative-writing-hero-header_23-2148853880.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "34",
+        "category": "paid",
+        "name": "Physics Laboratory",
+        "title": "Experiments in Mechanics",
+        "price": "35$",
+        "image": "https://img.freepik.com/free-photo/modern-physics-laboratory_23-2149044879.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "35",
+        "category": "free",
+        "name": "Art and Design",
+        "title": "Basics of Graphic Design",
+        "price": "0$",
+        "image": "https://img.freepik.com/free-photo/graphic-design-concept_23-2149069522.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "36",
+        "category": "paid",
+        "name": "Astronomy Notes",
+        "title": "Exploring the Stars",
+        "price": "40$",
+        "image": "https://img.freepik.com/free-photo/star-constellations-shining-brightly-night-sky_181624-14322.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "37",
+        "category": "free",
+        "name": "Music Theory",
+        "title": "Introduction to Chords",
+        "price": "0$",
+        "image": "https://img.freepik.com/free-photo/music-sheet-wooden-background_23-2149120074.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "38",
+        "category": "paid",
+        "name": "Computer Science",
+        "title": "Data Structures and Algorithms",
+        "price": "50$",
+        "image": "https://img.freepik.com/free-photo/programming-code-screen-software-developer_23-2148322029.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "39",
+        "category": "free",
+        "name": "Physical Education",
+        "title": "Fundamentals of Sports",
+        "price": "0$",
+        "image": "https://img.freepik.com/free-photo/physical-education-health-concept_23-2148904215.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
+    },
+    {
+        "id": "40",
+        "category": "paid",
+        "name": "Philosophy",
+        "title": "Existentialism and Meaning",
+        "price": "45$",
+        "image": "https://img.freepik.com/free-photo/philosophy-word-written-wooden-cubes-business-concept_23-2148997490.jpg?ga=GA1.1.1218832737.1722516325&semt=ais_hybrid"
     }
 ]

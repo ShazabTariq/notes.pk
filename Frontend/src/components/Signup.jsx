@@ -1,16 +1,56 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useForm } from "react-hook-form";
 import Login from './Login';
+import axios from "axios";
+import toast from 'react-hot-toast';
+import { useNavigate } from "react-router-dom";
 
 function Signup() {
+
+const [formData, setFormData] = useState({
+  Name: "",
+  Email: "",
+  Password: "",
+});
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
+  const navigate = useNavigate();
 
-  const onSubmit = (data) => console.log(data);
+
+  const onSubmit = async (data) => {
+    const userinfo = {
+      Name:data.Name,
+      Email:data.Email,
+      Password:data.Password
+    }
+    console.log(data);
+    await axios.post("http://localhost:5000/Users/saveuser" , userinfo).then((res)=>{
+      console.log(data);
+      if(res.data){
+        // alert("Signup successfully")
+        toast.success("Signup successfully")
+       
+      }
+      localStorage.setItem("Users", JSON.stringify(res.data.user));
+      setTimeout(() => {
+        // Navigate to the home page after successful signup
+        navigate("/");
+        
+        // window.location.reload();
+    })
+    }).catch((err)=>{
+      if(err.response){
+        console.log(err);
+        // alert("error: " + err.response.data.message);
+        toast.error("error: " + err.response.data.message);
+      }
+    
+    })
+  };
 
   return (
     <>
@@ -32,9 +72,9 @@ function Signup() {
                   id="name"
                   type="text"
                   placeholder="Enter your Name"
-                  {...register("name", { required: "Name is required" })}
+                  {...register("Name", { required: "Name is required" })}
                 />
-                {errors.name && <span className="text-red-500 text-sm">{errors.name.message}</span>}
+                {errors.Name && <span className="text-red-500 text-sm">{errors.Name.message}</span>}
               </div>
               <div className="mb-4">
                 <label className="block text-gray-700 dark:text-gray-200 text-sm font-bold mb-2" htmlFor="email">
@@ -45,9 +85,9 @@ function Signup() {
                   id="email"
                   type="email"
                   placeholder="Enter your email"
-                  {...register("email", { required: "Email is required" })}
+                  {...register("Email", { required: "Email is required" })}
                 />
-                {errors.email && <span className="text-red-500 text-sm">{errors.email.message}</span>}
+                {errors.Email && <span className="text-red-500 text-sm">{errors.Email.message}</span>}
               </div>
               <div className="mb-6">
                 <label className="block text-gray-700 dark:text-gray-200 text-sm font-bold mb-2" htmlFor="password">
@@ -58,9 +98,9 @@ function Signup() {
                   id="password"
                   type="password"
                   placeholder="Enter your password"
-                  {...register("password", { required: "Password is required" })}
+                  {...register("Password", { required: "Password is required" })}
                 />
-                {errors.password && <span className="text-red-500 text-sm">{errors.password.message}</span>}
+                {errors.Password && <span className="text-red-500 text-sm">{errors.Password.message}</span>}
               </div>
               <div className="flex items-center justify-center">
                 <button

@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
  import Navbar from './Navbar';
 import Footer from './Footer';
 import List from '../../public/list.json';
 import Carts from './carts';
 import { Link } from 'react-router-dom';
+import axios from "axios";
 function Paidnotes() {
   console.log(List);
+  const [notes, setnotes] = useState([]);
+  useEffect(()=>{
+    const getnotes = async()=>{
+try{
+const res = await axios.get("http://localhost:5000/book/getnotes")
+const data = res.data.filter((data) => data.category === 'paid');
+console.log(data);
+setnotes(data)
+}catch(error){
+console.log(error)
+}
+    }
+    getnotes();
+  },[])
   return (
     <>
       {/* <Navbar/> */}
@@ -27,7 +42,7 @@ function Paidnotes() {
 
         <div className='mt-12 mb-12 grid grid-cols-1 md:grid-cols-3 gap-8 justify-center px-10 py-8'>
           {
-            List.map((item) => (
+            notes.map((item) => (
               <div >
                 <Carts item={item} key={item.id} />
               </div>

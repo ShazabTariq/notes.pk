@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useForm } from "react-hook-form";
-
+import axios from "axios";
+import toast from 'react-hot-toast';
 function Login() {
   const {
     register,
@@ -9,7 +10,31 @@ function Login() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async  (data) => {
+    const userinfo = {
+      Email:data.Email,
+      Password:data.Password
+    }
+    console.log(data);
+    await axios.post("http://localhost:5000/Users/getuser" , userinfo).then((res)=>{
+      console.log(data);
+      if(res.data){
+        // alert("Login successfully")
+        toast.success("Login successfully")
+        window.location.reload();
+      }
+      localStorage.setItem("Users", JSON.stringify(res.data.user));
+    }).catch((err)=>{
+      if(err.response){
+        console.log(err);
+        // alert("error: " + err.response.data.message);
+        toast.error("error: " + err.response.data.message);
+      }
+    
+    })
+  
+
+  }
 
   return (
     <>
@@ -36,9 +61,9 @@ function Login() {
                   id="email"
                   type="email"
                   placeholder="Enter your email"
-                  {...register("email", { required: "Email is required" })}
+                  {...register("Email", { required: "Email is required" })}
                 />
-                {errors.email && <span className="text-red-500 text-sm">{errors.email.message}</span>}
+                {errors.Email && <span className="text-red-500 text-sm">{errors.Email.message}</span>}
               </div>
               <div className="mb-6">
                 <label className="block text-gray-700 dark:text-gray-200 text-sm font-bold mb-2" htmlFor="password">
@@ -49,9 +74,9 @@ function Login() {
                   id="password"
                   type="password"
                   placeholder="Enter your password"
-                  {...register("password", { required: "Password is required" })}
+                  {...register("Password", { required: "Password is required" })}
                 />
-                {errors.password && <span className="text-red-500 text-sm">{errors.password.message}</span>}
+                {errors.Password && <span className="text-red-500 text-sm">{errors.Password.message}</span>}
                 <div className="text-right mt-3 mb-1">
                   <a className="underline text-sm text-pink-500 hover:text-pink-700 dark:text-pink-300 dark:hover:text-pink-500" href="#">
                     Forgot your password?
@@ -59,12 +84,14 @@ function Login() {
                 </div>
               </div>
               <div className="flex items-center md:ml-10 justify-between">
+                
                 <button
                   className="w-96 bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                   type="submit"
                 >
                   Sign In
                 </button>
+
               </div>
               <div className="text-center mt-4">
                 <a className="text-sm text-gray-700 dark:text-gray-200" href="#">
